@@ -6,11 +6,15 @@ body{
   background-size: cover;
 }
 
-
+#logo
+{width: 100px; height: auto;position: absolute;right: 100px;top: 15px;}
 ul li{
      position:relative;float:left;
      width:100px;height:100px;padding:10px;list-style:none;
 }
+
+#iness
+{width: 200px; height: auto; border-radius: 15px;}
 /*permet de créer deux lignes*/
 
 ul li a{
