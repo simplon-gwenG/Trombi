@@ -12,8 +12,15 @@ ul li{
      width:100px;height:100px;padding:10px;list-style:none;
 }
 /*permet de créer deux lignes*/
-ul li:nth-child(4n){clear:left;}
 
+ul li a{
+     display:block;overflow:hidden;
+     width:100px;height:100px;
+     margin-top:0px;margin-left:0px;
+     border:0px solid rgba(0,0,0,0.7);
+     transition-property:width,height,margin,z-index,border;
+     transition-duration:0.4s;
+}
 
 ul li a:hover{
      position:absolute;
@@ -24,7 +31,7 @@ ul li a:hover{
 }
 
 ul li a img{
-    display: inline;
+     position:absolute;
      width:100px;height:100px;z-index:20;
      transition-property:width,height,z-index;
      transition-duration:0.4s;
